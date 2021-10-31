@@ -1,0 +1,21 @@
+<!-- <button routerLink="/calBmi">BMI page</button> -->
+
+
+<img src="assets/img/bmi.png" alt="Image not found">
+<form class="form" [formGroup]="homeForm">
+  <div class="mb-3">
+    <label for="formGroupExampleInput" class="form-label">Enter Your Height</label>
+    <input formControlName="height" type="text" class="form-control" id="formGroupExampleInput"
+      placeholder="Height in Meters">
+  </div>
+  <div class="mb-3">
+    <label for="formGroupExampleInput2" class="form-label">Enter Your Weight</label>
+    <input formControlName="weight" type="text" class="form-control" id="formGroupExampleInput2"
+      placeholder="Weight in KG">
+  </div>
+  <div>
+    <button (click)="calBmi()" type="button" class="btn btn-info">Calculate BMI</button>
+  </div>
+</form>
+
+

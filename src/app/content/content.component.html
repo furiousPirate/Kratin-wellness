@@ -1,0 +1,14 @@
+<div class="accordion m-2" id="accordion">
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed bg-primary text-white" type="button" (click)="toggleAccordian()">
+                {{accordianTitle}}
+            </button>
+        </h2>
+        <div *ngIf="isCollapsed" id="{{accordianId}}">
+            <div class="accordion-body">
+                <strong>{{accordianDescription}}</strong>
+            </div>
+        </div>
+    </div>
+</div>

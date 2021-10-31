@@ -1,0 +1,171 @@
+<!--CAROUSEL AREA STARTS-->
+
+<section id="slide">
+
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img id="image" src="assets/img/doc.jpg" class="d-block " style="height: 645px;" alt="Image not found">
+        <div class="carousel-caption d-md-block">
+          <h1>Hello, Sunita Sharma!!!</h1>
+          <p class="text">We care for you </p>
+          <p class="text">For you. For your family. For life.</p>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img id="image" src="assets/img/welness.jpg" class="d-block" style="height: 645px;" alt="Image not found">
+        <div class="carousel-caption d-md-block">
+          <button type="button" routerLink="wellness" class="btn btn-outline-primary">WELLNESS PROGRAM</button>
+          <p class="text">Visit our wellness program to know about health risks and and how to hande them</p>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img id="image" src="assets/img/map.png" class="d-block" style="height: 645px;" alt="Image not found">
+        <div class="carousel-caption d-md-block">
+          <h1 class="text">Medical Ememrgencies Always Come Unannounced!!</h1>
+          <p class="text">Get the most advance emergency care anywhewre in just minutes. Contact us NOW</p>
+        </div>
+      </div>
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+<!--CAROUSEL AREA ENDS-->
+
+
+<!--Covid Warning-->
+</section>
+
+<section id="covid">
+  <div class="hero-notice">
+    <div class="container">
+      <div class="hero-ntc-txt d-flx flx-wrap jstfy-btwn">
+        <div class="d-flx"><span class="icons i-bug"></span>
+          <p class="covidInfo"> <i class="fas fa-shield-virus"></i> <span> COVID-19 INFORMATION</span> Everything You
+            Need To Know About COVID-19 : Symptoms, Diagnosis,
+            Treatment &amp; <a href="https://www.cowin.gov.in/#Search-Vaccination-Center" class="uline">Vaccination
+              Centers</a> <a href="https://prod-cdn.preprod.co-vin.in/assets/pdf/Dos_and_Donts_for_Citizens.pdf"><button
+                type="button" style="margin-left: 5%;" class="btn btn-warning">Know More</button></a>
+           </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!--Covid Warning ends-->
+
+
+
+<!-- Features starts-->
+
+<section id="features">
+
+  <h5>WHY WE ARE DIFFERENT</h5><br><br><br><br>
+  <div class="container">
+    <div class="row">
+      <div class="feature-box col-lg-3">
+        <i class="item fas fa-hand-holding-medical fa-3x"></i>
+        <h3>On Field Care</h3>
+        <p>Digital care platform for hospice and palliative care</p>
+      </div>
+
+      <div class="feature-box col-lg-3">
+        <i class="item fas fa-user-shield fa-3x"></i>
+        <h3>Care Companion</h3>
+        <p>AI powered chronic & wellness assistant</p>
+      </div>
+
+      <div class="feature-box col-lg-3">
+        <i class="item fas fa-clinic-medical fa-3x"></i>
+        <h3>Clinical Assistant</h3>
+        <p>Digitizing Clinical worlflows for care team</p>
+      </div>
+
+      <div class="feature-box col-lg-3">
+        <i class="item far fa-id-badge fa-3x"></i>
+        <h3>Secure Collaboration</h3>
+        <p>HIPAA complaint communication and Collaboration</p>
+      </div>
+
+    </div>
+  </div>
+
+</section>
+
+<!--Features End-->
+
+
+
+<!--Cards Section-->
+<section id="programs">
+
+  <div class="container px-4 py-5" id="custom-cards">
+    <h1>GET YOUR PROGRAMS BELOW</h1>
+    <div class="row row-cols-1 row-cols-lg-2 align-items-stretch g-4 py-5">
+
+      <div routerLink="wellness" class="col">
+        <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
+          style="background-image: url('https://images.all-free-download.com/images/graphiclarge/lifestyle_icons_colored_cartoon_characters_sketch_6848075.jpg');">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+            <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">wellness</h2>
+          </div>
+        </div>
+      </div>
+
+      <div routerLink="bmi" class="col">
+        <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
+          style="background-image: url('https://images.all-free-download.com/images/graphiclarge/diet_concept_drawing_weight_legs_hotdog_icons_6834721.jpg');">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+            <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Calculate your BMI</h2>
+          </div>
+        </div>
+      </div>
+
+      <div routerLink="diet" class="col">
+        <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
+          style="background-image: url('https://images.all-free-download.com/images/graphiclarge/diet_banner_vegetable_food_weight_ruler_notebook_icons_6834864.jpg');">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+            <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Diet Plan</h2>
+          </div>
+        </div>
+      </div>
+
+      <div routerLink="exercise" class="col">
+        <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
+          style="background-image: url('https://images.all-free-download.com/images/graphiclarge/lifestyle_background_old_people_exercise_icon_cartoon_design_6838129.jpg');">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+            <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Exercise Plan</h2>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</section>
+
+
+  

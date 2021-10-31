@@ -1,0 +1,37 @@
+/*---top image---*/
+.lifestyle{
+    height: 6rem;
+    padding: 1rem 0rem 0rem 7rem;
+}
+
+h1,h5,p,li{
+    font-family: "Montserrat-Bold";
+    color: #003B4A;
+}
+
+h1{
+    padding-top: 3rem;
+    text-align: center;
+    
+}
+
+.yoga{
+    padding-top: 5rem;
+    width: 100%;
+}
+
+#collapse{
+    padding-top: 5rem;
+    background-image: url(https://i.pinimg.com/originals/e3/ca/c4/e3cac4a9b2d011485409b6cdc279a409.jpg);
+    max-width: 100%;
+}
+#card{
+    margin: 7rem auto 7rem auto ;
+}
+#card:hover{
+    transform: scale(1.1);
+}
+#button{
+      margin: 0 35% 0 35%;
+  }
+  

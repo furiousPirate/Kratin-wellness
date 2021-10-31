@@ -1,0 +1,17 @@
+img{
+    position: relative;
+    width: 100%;
+}
+h1{
+    position: relative;
+    margin-top: 0.2%;
+    margin-left: 35%;
+    padding-right: 35%;
+    text-align: center;
+}
+.cal{
+    position: relative;
+    margin-top: 0.2%;
+    margin-left: 35%;
+    padding-right: 35%;
+}

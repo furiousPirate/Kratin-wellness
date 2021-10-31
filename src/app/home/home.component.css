@@ -1,0 +1,117 @@
+/*--------carousel area-------*/
+.text{
+  color: white;
+  font-size: 3rem;
+}
+img{
+  background-color: gray;
+}
+.d-block{
+  width: 100%;
+}
+
+
+
+h1,h2,h4,h5,p{
+  font-family: "Montserrat-Bold";
+}
+
+
+
+/*-----covid warning-----*/
+#covid{
+  padding: 1rem 0rem 10rem 0rem ;
+}
+.covidInfo{
+    padding: 2% 0% 2% 0%;
+    font-size: 16px;
+    background-color: #FFAF0A;
+    text-align: center;
+}
+
+/*-------------features section----------*/
+h5{
+    font-size: 5rem;
+}
+#features{
+    background-position: bottom;
+    text-align: center;
+    padding: 3% 5%;
+    background-color: white;
+    position: relative;
+  }
+.feature-box{
+    text-align: center;
+  }
+.item{
+    color: skyblue;
+    margin-bottom: 1rem;
+    size: 5x;
+  }
+.item:hover{
+    color: blue;
+    transform: scale(1.5);
+  }
+
+
+
+/*------cards section----*/
+h1{
+  text-align: center;
+  margin-top: 15rem;
+}
+h2{
+    font-size: calc(1.325rem + .9vw);
+    margin-top: 0;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+  }
+.card{
+  border-radius: 50px;
+  border: 2px solid;
+  padding: 55px; 
+  width: 600px;
+  height: 50px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.col{
+  margin-top: 7rem;
+  margin-bottom: 7rem;
+}
+.col:hover{
+  transform: scale(1.1);
+}
+.pt-5{
+  color:#003B4A;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+
+/*-------------------- Media Queries for responsiveness starts here --------------------*/
+
+
+/* reducing height of carousel */
+@media (max-width:770px) {
+  .carousel-item{
+    height: 600px;
+  }
+  #texts.text{
+    font-size: 30px;
+  }
+}
+
+/* setting width of cards and font size */
+@media(max-width:1390px){
+  .card{
+    width: 300px;
+    
+  } 
+  .pt-5{
+    font-size: 20px;
+    text-align:start;
+  }
+}

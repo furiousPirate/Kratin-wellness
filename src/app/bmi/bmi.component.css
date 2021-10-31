@@ -1,0 +1,10 @@
+img{
+    position: relative;
+    width: 100%;
+}
+.form{
+    position: relative;
+    margin-top: 2%;
+    margin-left: 35%;
+    padding-right: 35%;
+}

@@ -1,0 +1,10 @@
+
+img{
+    width: 100%;
+    background-color: skyblue;
+    position:relative;
+}
+.col-md-6{
+    position: relative;
+    margin-left: 25%;
+}
